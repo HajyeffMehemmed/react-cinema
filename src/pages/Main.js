@@ -9,7 +9,9 @@ export class Main extends Component {
       <div>
       <Header/>
       <Vdy/>
-      <Sliders/>
+      <Sliders name= 'Popular Movies 2022' />
+      <Sliders name='Best Comedies'/>
+      <Sliders name='Action & Adventure'/>
       <Footer/>
       </div>
     )
